@@ -1,4 +1,4 @@
 # Add  code here!
 def prime?(number)
-  (1...number).to_a
+  checknums = (1...number).to_a
 end
