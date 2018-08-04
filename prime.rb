@@ -5,7 +5,7 @@ def prime?(number)
     return false
   else
     checknums.all? do |check|
-    return false if number % check == 0
+      return false if number % check == 0
   end
   true
 end
